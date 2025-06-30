@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Beshtawi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-tab="home">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-tab="experience">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Erfahrung</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link" data-tab="education">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Ausbildung</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-tab="skills">
+                        <i class="fas fa-code"></i>
+                        <span>Fähigkeiten</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-tab="projects">
+                        <i class="fas fa-folder-open"></i>
+                        <span>Projekte</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-tab="contact">
+                        <i class="fas fa-envelope"></i>
+                        <span>Kontakt</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="main-content">
+
+        <section id="home" class="tab-content active">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Hallo, ich bin <span class="highlight">Mohammad Beshtawi</span>
+                        </h1>
+                        <h2 class="hero-subtitle">Fachinformatiker für Anwendungsentwicklung</h2>
+                        <p class="hero-description">
+                            Als Fachinformatiker in Ausbildung mit praktischer Erfahrung in React, JavaScript, PHP,
+                            Laravel, SQL sowie modernen Webtechnologien wie HTML, CSS und RESTful APIs baue ich aktuell
+                            mein Know-how im Bereich der Anwendungsentwicklung weiter aus.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary" onclick="showTab('contact')">
+                                <i class="fas fa-envelope"></i>
+                                Kontakt aufnehmen
+                            </button>
+                            <button class="btn btn-secondary" onclick="showTab('projects')">
+                                <i class="fas fa-eye"></i>
+                                Projekte ansehen
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="profile.jpg" alt="Mohammad Beshtawi" class="profile-img">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-section">
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Jahre Erfahrung</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Technologien</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Sprachen</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Motivation</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="experience" class="tab-content">
+            <div class="section-header">
+                <h2 class="section-title">Berufserfahrung</h2>
+                <p class="section-subtitle">Mein Werdegang und praktische Erfahrungen</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker current"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Praktikum - Fachinformatik Anwendungsentwicklung</h3>
+                            <span class="timeline-date">Dezember 2024 - Heute</span>
+                        </div>
+                        <div class="timeline-company">EWANTO GmbH</div>
+                        <p class="timeline-description">
+                            Durch mein laufendes Praktikum bei EWANTO GmbH konnte ich wertvolle Einblicke in die Praxis
+                            gewinnen und meine Fähigkeiten im realen Projektumfeld vertiefen. Arbeit mit modernen
+                            Webtechnologien und Entwicklung von Anwendungen.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Shopware6</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Ausblidung</h3>
+                            <span class="timeline-date">August 2023 - Heute</span>
+                        </div>
+                        <div class="timeline-company">GPB - Berlin</div>
+                        <p class="timeline-description">
+                            Umschulung zum Fachinformatiker mit Schwerpunkt auf moderne Programmiersprachen und
+                            Webtechnologien.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">SQL/mySQL</span>
+                            <span class="tag">C</span>
+                            <span class="tag">Java OOP</span>
+                            <span class="tag">Netzwerke</span>
+                            <span class="tag">HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="tab-content">
+            <div class="section-header">
+                <h2 class="section-title">Ausbildung & Weiterbildung</h2>
+                <p class="section-subtitle">Mein Bildungsweg und kontinuierliche Weiterentwicklung</p>
+            </div>
+
+            <div class="education-grid">
+                <div class="education-card current">
+                    <div class="education-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Fachinformatik Anwendungsentwicklung</h3>
+                        <div class="education-institution">GPB - Berlin</div>
+                        <div class="education-date">August 2023 - Heute</div>
+                        <p class="education-description">Umschulung zum Fachinformatiker mit Schwerpunkt auf moderne
+                            Programmiersprachen und Webtechnologien.</p>
+                        <div class="education-status">Aktuell</div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>IBM Full Stack Software Developer</h3>
+                        <div class="education-institution">Coursera - Online</div>
+                        <div class="education-date">2023</div>
+                        <p class="education-description">Umfassende Weiterbildung in Full-Stack-Entwicklung mit modernen
+                            Technologien.</p>
+                        <div class="education-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">Sass</span>
+                            <span class="tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Studienkolleg</h3>
+                        <div class="education-institution">FHM Bielefeld Hochschule</div>
+                        <div class="education-date">Januar 2023 - Mai 2023</div>
+                        <p class="education-description">Vorbereitung auf das Studium mit Fokus auf Deutsch, Mathematik,
+                            Chemie und Physik.</p>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Deutsch B2 Niveau</h3>
+                        <div class="education-institution">Volkshochschule - Berlin</div>
+                        <div class="education-date">2022</div>
+                        <p class="education-description">Sprachkurs zur Verbesserung der deutschen Sprachkenntnisse.</p>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Web Development Grundlagen</h3>
+                        <div class="education-institution">Coursera - Online</div>
+                        <div class="education-date">2021</div>
+                        <p class="education-description">Erste Schritte in der Webentwicklung mit HTML, CSS und
+                            JavaScript.</p>
+                        <div class="education-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Abitur</h3>
+                        <div class="education-institution">AL-Quds Schule - Bukarest</div>
+                        <div class="education-date">2021</div>
+                        <p class="education-description">Allgemeine Hochschulreife als Grundlage für weitere Bildung.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="tab-content">
+            <div class="section-header">
+                <h2 class="section-title">Fähigkeiten & Kompetenzen</h2>
+                <p class="section-subtitle">Meine technischen Kenntnisse und Soft Skills</p>
+            </div>
+
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-code"></i>
+                        Frontend Entwicklung
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML5</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>CSS3</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>React.js</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-vuejs"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Vue.js</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-sass"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Sass</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 65%"></div>
+                                    </div>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-server"></i>
+                        Backend Entwicklung
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>PHP</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-laravel"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Laravel</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Node.js</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>SQL</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Technologien
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Git</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-linux"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Linux</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>LibreOffice</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Adobe Audition</h4>
+                                <div class="skill-level">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 60%"></div>
+                                    </div>
+                                    <span class="skill-percentage">60%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-comments"></i>
+                        Sprachen
+                    </h3>
+                    <div class="language-skills">
+                        <div class="language-item">
+                            <div class="language-info">
+                                <h4>Deutsch</h4>
+                                <span class="language-level">B2 Niveau</span>
+                            </div>
+                            <div class="language-progress">
+                                <div class="language-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="language-item">
+                            <div class="language-info">
+                                <h4>Englisch</h4>
+                                <span class="language-level">Gute Kenntnisse</span>
+                            </div>
+                            <div class="language-progress">
+                                <div class="language-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="language-item">
+                            <div class="language-info">
+                                <h4>Arabisch</h4>
+                                <span class="language-level">Muttersprache</span>
+                            </div>
+                            <div class="language-progress">
+                                <div class="language-bar" style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="tab-content">
+            <div class="section-header">
+                <h2 class="section-title">Projekte</h2>
+                <p class="section-subtitle">Reale Projekte aus meinem Praktikum bei EWANTO GmbH</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="btn-icon">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Shopware 6 Migration</h3>
+                        <p class="project-description">
+                            Unterstützung bei der Migration von Shopware 5 zu Shopware 6 für den E-Commerce-Webshop von
+                            EWANTO GmbH. Verantwortlich für Konzeption, Design und Content-Migration.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Shopware 6</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">E-Commerce</span>
+                            <span class="tag">Migration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="btn-icon">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>B2B Website Entwicklung</h3>
+                        <p class="project-description">
+                            Erstellung von B2B One-Page-Websites mit Fokus auf spezifische Vertriebskanäle, Märkte und
+                            Sortimente für verschiedene Geschäftsbereiche.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">B2B</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="btn-icon">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Automatisierte Analyse-Software</h3>
+                        <p class="project-description">
+                            Entwicklung einer Softwarelösung zur automatisierten Analyse und Mustererkennung bei
+                            Mehrpositionsbestellungen zur Optimierung von Geschäftsprozessen.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">JS</span>
+                            <span class="tag">Data Analysis</span>
+                            <span class="tag">Automatisierung</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="btn-icon">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Großhandelspreislisten-Generator</h3>
+                        <p class="project-description">
+                            Entwicklung einer mehrsprachigen Softwarelösung zur automatisierten Erstellung von
+                            Großhandelspreislisten mit Unterstützung verschiedener Währungen.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">Multi-Language</span>
+                            <span class="tag">Multi-Currency</span>
+                            <span class="tag">Automatisierung</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="btn-icon">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>PIM Datenkonvertierung</h3>
+                        <p class="project-description">
+                            Datenaufbereitung und -konvertierung aus Product Information Management (PIM) Systemen für
+                            B2B-Websites und E-Commerce-Plattformen.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">PIM</span>
+                            <span class="tag">Data Processing</span>
+                            <span class="tag">APIs</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-undo"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="btn-icon">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Retourenbearbeitungssoftware</h3>
+                        <p class="project-description">
+                            Überarbeitung und Optimierung der bestehenden Retourenbearbeitungssoftware zur Verbesserung
+                            der Effizienz im Kundenservice.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Software Engineering</span>
+                            <span class="tag">Process Optimization</span>
+                            <span class="tag">Customer Service</span>
+                            <span class="tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-experience">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Praktikum bei EWANTO GmbH</h3>
+                        <span class="experience-date">Dezember 2024 - August 2025</span>
+                    </div>
+                    <p class="experience-description">
+                        Während meines Praktikums bei EWANTO GmbH, einem führenden Anbieter im Onlinehandel für
+                        Batterien und Artikel des täglichen Bedarfs, konnte ich umfassende Erfahrungen in der
+                        IT/Anwendungsentwicklung sammeln. Das Unternehmen legt besonderen Wert auf Nachhaltigkeit und
+                        optimale Kundenerfahrung.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="tab-content">
+            <div class="section-header">
+                <h2 class="section-title">Kontakt</h2>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>E-Mail</h3>
+                            <p>mohammad.bishtawe2000@gmail.com</p>
+                            <a href="mailto:mohammad.bishtawe2000@gmail.com" class="contact-link">
+                                E-Mail senden
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Standort</h3>
+                            <p>Berlin</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="interests-section">
+                <h3>Interessen & Hobbys</h3>
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <div class="interest-icon">
+                            <i class="fas fa-bicycle"></i>
+                        </div>
+                        <span>Fahrrad fahren</span>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <span>Musik machen</span>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <span>Sport treiben</span>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <span>Programmieren</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
